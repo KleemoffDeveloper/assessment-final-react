@@ -1,4 +1,9 @@
+* {
+  margin: 0;
+}
+
 nav {
+  margin: 0;
   display: flex;
   justify-content: space-around;
   background: #517e94;
@@ -10,11 +15,20 @@ nav {
 nav a {
   text-decoration: none;
   font-size: 2em;
-  color: white;
+  color: rgb(0, 200, 255);
 }
 
 nav img {
   height: 50px;
+}
+
+.title {
+  font-weight: lighter;
+  font-size: 32px;
+}
+
+.locations-toggle {
+  width: 200px;
 }
 
 main {
@@ -23,7 +37,7 @@ main {
 }
 
 section,
-h2 {
+h2, h1 {
   margin-top: 1em;
   width: 90%;
   margin: auto;
